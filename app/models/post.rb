@@ -11,4 +11,5 @@ class Post < ActiveRecord::Base
         errors.add(:title, "Not clickbaity enough")
       end
     end
+  end
 end
